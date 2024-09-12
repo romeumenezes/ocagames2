@@ -1110,16 +1110,14 @@ a[href*='tel'], a[href*='mailto'] {
 	border-bottom-left-radius: 8px;
 }
 
-.box-pricing-ana-flepati {
-	color: #456754; /*muda a cor do texto da caixa destaques*/
-	background: #349859;/*muda a cor do fundo da caixa de destaques*/
+.box-pricing-black2 {
+	color: #ffffff; /*cor das palavras*/
+	background: #6c5353ff; /*cor do fundo*/
 }
 
-
-
 .box-pricing-black {
-	color: #ffffff; /*muda a cor do texto da caixa destaques*/
-	background: #989898;/*muda a cor do fundo da caixa de destaques*/
+	color: #ffffff;
+	background: #1b1929;
 }
 
 .box-pricing-black .box-pricing-time,
