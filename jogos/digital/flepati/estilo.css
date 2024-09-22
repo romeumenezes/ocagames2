@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(40, 87, 119);
+    background-color: rgb(222, 255, 222);
 }
 
 *{
@@ -7,12 +7,14 @@ body{
     padding: 0;
     border: none;
 }
+
 header{
     background-color: #fff;
     font-family: sans-serif;
     text-align: center;
     width: 100%;
 }
+
 main{
     width: 100%;
     margin-top: 60px;
@@ -20,17 +22,20 @@ main{
     align-items: center;
     flex-direction: column;
 }
+
 main h2{
     margin-top: 23px;
-    color: #fff;
+    color: #222;
     font-weight: bold;
     font-family: sans-serif;
 }
+
 main .game{
     display: grid;
-    gap: 130px;
+    gap: 80px;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
 main .game button{
     outline: none;
     padding: 13px;
@@ -39,12 +44,14 @@ main .game button{
     background-color: grey;
     cursor: pointer;
 }
+
 main .scores{
     display: flex;
     justify-content: space-evenly;
-    width: 60%;
+    width: 40%;
     text-align: center;
 }
+
 main .scores .score{
     background-color: grey;
     border: 3px solid orange;
@@ -54,6 +61,7 @@ main .scores .score{
     padding: 13px;
     border-radius: 13px;
 }
+
 main .result{
     margin-top: 32px;
     display: flex;
@@ -61,16 +69,19 @@ main .result{
     color: white;
     font-family: sans-serif;
 }
+
 main .result h1{
     margin: 42px 23px;
     color: red;
 }
+
 main .result p{
     margin-bottom: 10px;
     text-align: center;
     font-family: sans-serif;
     font-weight: bold;
 }
+
 main .result .img{
     background-color: grey;
     border: 4px solid blue;
@@ -80,6 +91,7 @@ main .result .img{
 main .result .img + .img {
     margin-left: 23px;
 }
+
 main .resultP{
     margin-top: 32px;
     color: #fff;
@@ -90,6 +102,7 @@ main .resultP{
     border-radius: 13px;
     border:5px solid orange;
 }
+
 main label{
     margin-top: 33px;
     text-align: center;
@@ -103,6 +116,7 @@ footer{
     font-weight: bold;
     font-family: sans-serif;
 }
+
 footer a{
     text-decoration: none;
     cursor: pointer;
