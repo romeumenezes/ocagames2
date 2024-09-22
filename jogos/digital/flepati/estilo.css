@@ -32,7 +32,7 @@ main h2{
 
 main .game{
     display: grid;
-    gap: 80px;
+    gap: 40px;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
