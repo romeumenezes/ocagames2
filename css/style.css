@@ -5637,7 +5637,7 @@ textarea.textarea-lg {
 */
 .quote-classic {
 	position: relative;
-	text-align: left;
+	text-align: justify;
 	padding-top: 35px;
 }
 

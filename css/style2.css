@@ -1110,9 +1110,9 @@ a[href*='tel'], a[href*='mailto'] {
 	border-bottom-left-radius: 8px;
 }
 
-.box-pricing-box-pricing-a-flepati {
-	color: #347890;
-	background: #890567;
+.box-pricing-black2 {
+	color: #ffffff; /*cor das palavras*/
+	background: #666666; /*cor do fundo*/
 }
 
 .box-pricing-black {
@@ -1142,6 +1142,9 @@ a[href*='tel'], a[href*='mailto'] {
 	color: inherit;
 }
 
+.box-pricing-black2 .box-pricing-list > li.active::before {
+	color: #6689ff;
+}
 .box-pricing-black .box-pricing-list > li.active::before {
 	color: #6689ff;
 }
@@ -5634,7 +5637,7 @@ textarea.textarea-lg {
 */
 .quote-classic {
 	position: relative;
-	text-align: left;
+	text-align: justify;
 	padding-top: 35px;
 }
 
@@ -20231,4 +20234,97 @@ disabled look for disabled choices in the results dropdown
 
 .modal-body {
 	padding: 29px 30px 35px;
+}
+
+main{
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main h2{
+    margin-top: 23px;
+    color: #222;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+main .game{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+main .game button{
+    outline: none;
+    padding: 13px;
+    border-radius: 13px;
+    border:5px solid green;
+    background-color: grey;
+    cursor: pointer;
+}
+
+main .scores{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    text-align: center;
+}
+
+main .scores .score{
+    background-color: grey;
+    border: 3px solid orange;
+    color: #fff;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 13px;
+    border-radius: 13px;
+}
+
+main .result{
+    margin-top: 32px;
+    display: flex;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+main .result h1{
+    margin: 42px 23px;
+    color: red;
+}
+
+main .result p{
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+main .result .img{
+    background-color: grey;
+    border: 4px solid blue;
+    padding: 23px;
+    border-radius: 10px;
+}
+main .result .img + .img {
+    margin-left: 23px;
+}
+
+main .resultP{
+    margin-top: 32px;
+    color: #fff;
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color: grey;
+    padding: 13px;
+    border-radius: 13px;
+    border:5px solid orange;
+}
+
+main label{
+    margin-top: 33px;
+    text-align: center;
 }
