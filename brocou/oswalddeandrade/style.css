@@ -1,0 +1,25 @@
+body {
+      background-color: #501616ff;
+     }
+
+strong {
+	    color: black;
+       }
+
+h1 {
+	font-family: arial, verdana, sans-serif;
+	font-style: normal;
+	text-align: center;
+   }
+
+img {
+                display: block;
+				margin-left: auto;
+				margin-right: auto;
+				padding: 5px;
+				width: 650px;
+               
+              }
+              
+
+
